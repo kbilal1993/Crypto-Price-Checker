@@ -11,16 +11,12 @@
   },
   "accounts": [
     {
-      "name": "Me",
-      "amount": 0.09117796
+      "name": "hodl wallet",
+      "amount": 0.6
     },
     {
-      "name": "Nadia",
-      "amount": 0.02485348
-    },
-    {
-      "name": "Dad",
-      "amount": 0.02320253
+      "name": "Small savings wallet",
+      "amount": 0.002
     }
   ]
 }
