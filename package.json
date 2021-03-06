@@ -1,0 +1,16 @@
+{
+  "name": "CryptoPriceChecker",
+  "version": "1.0.0",
+  "description": "Small application to check current Bitcoin prices in USD of given values. Consider this a simple way to check how much your BTC is worth, without giving up your private key.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^12.0.0"
+  }
+}

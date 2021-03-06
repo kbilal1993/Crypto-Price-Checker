@@ -1,0 +1,71 @@
+/* Colours */
+:root {
+  --colour1: #ffffff; /* background */
+  --colour2: #F5F6F7; /* card */
+  --colour3: #000000; /* card text */
+}
+
+/* Raleway font */
+@font-face {
+  font-family: "raleway";
+  src: url("Raleway-Regular.ttf");
+}
+
+body {
+  font-family: raleway, sans-serif;
+  color: var(--colour3);
+  background-color: var(--colour1);
+}
+
+/* Material design card */
+.card {
+  background-color: var(--colour2);
+  box-shadow: inset 1px 1px 2px black;
+  border: 1px solid black;
+  margin: 3px;
+  padding: 3px;
+  border-radius: 7px;
+}
+
+
+.price {
+  text-align: center;
+  font-size: xx-large;
+  font-weight: 550;
+  padding: 3px;
+  margin: 3px;
+}
+
+.change {
+  text-align: center;
+  font-size: large;
+  padding: 3px;
+  margin: 3px;
+}
+
+/* Vertically stack, for cards */
+.vertical {
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+}
+
+/* Any card in the stack should be stretched out to cover the whole screen */
+.vertical > .card {
+  align-self: stretch;
+}
+
+/* A card's name */
+.name {
+  font-size: large;
+  padding: 3px;
+  margin: 3px;
+}
+
+/* The dollar amount of the bitcoin in the card */
+.value {
+  text-align: center;
+  font-size: xx-large;
+  padding: 3px;
+  margin: 3px;
+}

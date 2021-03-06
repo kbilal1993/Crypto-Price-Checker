@@ -1,0 +1,26 @@
+{
+  "app": {
+    "resizable": false,
+    "devmode": false,
+    "palette": 
+    [
+      "#ffffff",
+      "#F5F6F7",
+      "#000000"
+    ]
+  },
+  "accounts": [
+    {
+      "name": "Me",
+      "amount": 0.09117796
+    },
+    {
+      "name": "Nadia",
+      "amount": 0.02485348
+    },
+    {
+      "name": "Dad",
+      "amount": 0.02320253
+    }
+  ]
+}
