@@ -1,6 +1,8 @@
 # Crypto Price Checker
 A small tool which acts as a Bitcoin ticker, but also tells you how much your bitcoin wallets are worth in £.
 
+[Screenshot of the app in action](screenshot.png)
+
 ## Why?
 I want to know how well my wallets are doing relative to the current price of Bitcoin, but I don't want to have an Electrum window open for each one. Also I want to learn more about Electron, and web development in general.
 
